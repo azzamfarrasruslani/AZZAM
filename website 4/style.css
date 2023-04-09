@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-image: url(gambar/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    
+}
+.container{
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    height: 16vh;
+    width: 100%;
+}
+.logo {
+    cursor: pointer;
+    width: 150px;
+    margin: 30px 30px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav {
+    text-align: right;
+    flex: 1;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+    padding-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size:16px;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255) ;
+}
+nav ul li a:hover {
+    color: black;
+}
+.row{
+    font-family: 'Montserrat';
+    justify-content: space-between;
+    text-shadow: 2px 2px #0e0c0c;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding: 100px;
+}
+.col-1{
+    flex-basis: 80%;
+    position: relative;
+}
+.col-1 h1 {
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+}    
+
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track{
+    background: #6d5f5f;
+}

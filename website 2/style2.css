@@ -1,0 +1,57 @@
+body {
+    background-image: url(gambar/12.jpg);
+    background-size: cover;
+    font-family:'Montserrat';
+}
+
+.logo a {
+    color: black;
+    text-align: left;
+    font-size: 200%;
+    text-decoration: none;   
+}
+
+.logo a span {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    float: right;
+    
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+}
+
+.navigation ul li a:hover {
+     display: block;
+     position: relative;
+     box-shadow: white;
+     
+}
+
+.navigation ul li .dropdown {
+    display: none;
+    width: 50px;
+}
+
+.navigation ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+}
